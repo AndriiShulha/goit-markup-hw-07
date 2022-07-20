@@ -187,7 +187,7 @@ button {
 	color: #ffffff;
 }
 
-.card-title {
+.portfolio__card-title {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
@@ -196,7 +196,7 @@ button {
 	color: var(--main-color-btn);
 }
 
-.card-text {
+.portfolio__card-text {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.89;
@@ -593,8 +593,8 @@ button {
 	max-width: 100%;
 	height: auto;
 	border-radius: 4px;
-	border: 0p;
-	border: 1px solid transparent;
+	border: 0px;
+
 	transition: box-shadow var(--anim-slow);
 }
 
@@ -603,11 +603,29 @@ button {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.team-img {
+.team-wrapper {
+	padding: 20px 24px;
+	background: #ffffff;
+	border: 1px solid #eeeeee;
+	border-top: none;
+}
+
+.team-wrapper {
+	background: #ffffff;
+	border-radius: 0px 0px 4px 4px;
+}
+
+.team-wrapper:hover,
+.team-wrapper:focus {
+	border: 1px solid transparent;
+	color: #eeeeee;
+}
+
+/* .team-img {
 	display: block;
 	max-width: 100%;
 	height: auto;
-}
+} */
 
 .cards {
 	padding: 30px 0;
