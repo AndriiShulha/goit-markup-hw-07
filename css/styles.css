@@ -533,20 +533,20 @@ button {
 
 /* Benefits and */
 
-.team-wrapper {
+.portfolio__team-wrapper {
 	padding: 20px 24px;
 	background: #ffffff;
 	border: 1px solid #eeeeee;
 	border-top: none;
 }
 
-.team-wrapper {
+.portfolio__team-wrapper {
 	background: #ffffff;
 	border-radius: 0px 0px 4px 4px;
 }
 
-.team-wrapper:hover,
-.team-wrapper:focus {
+.portfolio__team-wrapper:hover,
+.portfolio__team-wrapper:focus {
 	border: 1px solid transparent;
 	color: #eeeeee;
 }
