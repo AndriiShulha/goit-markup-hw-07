@@ -563,7 +563,7 @@ button {
 	background: #f5f4fa;
 }
 
-.team__card-set-foto {
+.team__set-foto {
 	display: flex;
 	--items: 4;
 }
@@ -579,7 +579,7 @@ button {
 	margin-bottom: 50px;
 }
 
-.team-item {
+.team__item {
 	margin-right: -15px;
 	width: 270px;
 	margin: 15px;
@@ -587,7 +587,7 @@ button {
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team__card-set-item {
+.team__set-item {
 	display: block;
 	flex-basis: calc((100% - var(--indent) * var(--items)) / var(--items));
 	max-width: 100%;
@@ -598,39 +598,29 @@ button {
 	transition: box-shadow var(--anim-slow);
 }
 
-.team__card-set-item:hover,
-.team__card-set-item:focus {
+.team__set-item:hover,
+.team__set-item:focus {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.team-wrapper {
+.team__wrapper {
 	background: #ffffff;
 	border: 1px solid #eeeeee;
 	border-top: none;
-}
-
-.team-wrapper {
-	background: #ffffff;
 	border-radius: 0px 0px 4px 4px;
 }
 
-.team-wrapper:hover,
-.team-wrapper:focus {
+.team__wrapper:hover,
+.team__wrapper:focus {
 	border: 1px solid transparent;
 	color: #eeeeee;
 }
-
-/* .team-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
-} */
 
 .cards {
 	padding: 30px 0;
 }
 
-.team-employees {
+.cards__employees {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
@@ -641,7 +631,7 @@ button {
 	margin-bottom: 10px;
 }
 
-.place-work {
+.cards__work {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.19;
@@ -651,16 +641,16 @@ button {
 	margin-bottom: 16px;
 }
 
-.team-soc-link {
+.soc__link {
 	display: flex;
 	justify-content: center;
 }
 
-.team-soc-item + .team-soc-item {
+.soc__team + .soc__team {
 	margin-left: 10px;
 }
 
-.team-soc-link {
+.soc__link {
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
@@ -671,22 +661,22 @@ button {
 	transition: background-color var(--anim-slow);
 }
 
-.team-soc-link:hover,
-.team-soc-link:focus {
+.soc__link:hover,
+.soc__link:focus {
 	background-color: var(--accent-txt-color);
 }
 
-.team-soc-icon {
+.soc__icon {
 	fill: #afb1b8;
 	transition: fill var(--anim-slow);
 }
 
-.team-soc-link:hover .team-soc-icon,
-.team-soc-link:focus .team-soc-icon {
+.soc__link:hover .soc__icon,
+.soc__link:focus .soc__icon {
 	fill: #ffffff;
 }
 
-.team-soc-list {
+.soc {
 	display: flex;
 	justify-content: center;
 	padding: 0;
