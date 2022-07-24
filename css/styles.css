@@ -370,7 +370,7 @@ button {
 
 /* Header section end*/
 
-.current-btn::after {
+.button-portfolio__current::after {
 	position: absolute;
 	content: "";
 	display: inline-block;
@@ -438,7 +438,7 @@ button {
 
 /* Portfolio button */
 
-.button-item:not(:last-child) {
+.button-portfolio__item:not(:last-child) {
 	margin-right: 8px;
 }
 
@@ -454,11 +454,11 @@ button {
 	border-radius: 4px;
 }
 
-.btn-info {
+.button-portfolio__info {
 	border-radius: 4px;
 }
 
-.button-list {
+.button-portfolio__list {
 	padding: 5px 20px;
 	font-family: inherit;
 	font-weight: 500;
@@ -472,15 +472,15 @@ button {
 	transition: background-color var(--anim-slow), color var(--anim-slow), box-shadow var(--anim-slow);
 }
 
-.button-list.current-btn,
-.button-list:hover,
-.button-list:focus {
+.button-portfolio__list.button-portfolio__current,
+.button-portfolio__list:hover,
+.button-portfolio__list:focus {
 	background-color: var(--accent-txt-color);
 	color: var(--color-light);
 }
 
-.section-shadow:hover,
-.section-shadow:focus {
+.button-portfolio__shadow:hover,
+.button-portfolio__shadow:focus {
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	border-radius: 4px;
 
