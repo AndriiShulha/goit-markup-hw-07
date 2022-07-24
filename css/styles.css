@@ -257,7 +257,12 @@ button {
 	letter-spacing: 0.02em;
 }
 
-.header-logo {
+.link:hover,
+.link:focus {
+	color: var(--accent-txt-color);
+}
+
+.logo {
 	margin-right: 95px;
 	font-weight: 700;
 	font-size: 26px;
@@ -266,23 +271,23 @@ button {
 	color: var(--accent-txt-color);
 }
 
-.logo {
+.logo__name {
 	color: #000000;
 }
 
-.header-list {
+.nav {
 	display: flex;
 }
 
-.header-list-item {
+.nav__list {
 	position: relative;
 }
 
-.header-list-item:not(:last-child) {
+.nav__list:not(:last-child) {
 	margin-right: 50px;
 }
 
-.nav-link {
+.nav__link {
 	display: block;
 	color: var(--main-color-btn);
 	padding-top: 32px;
@@ -290,7 +295,7 @@ button {
 	transition: color var(--anim-slow);
 }
 
-.current::after {
+.nav__current::after {
 	position: absolute;
 	content: "";
 	display: inline-block;
@@ -303,6 +308,10 @@ button {
 	border-radius: 2px;
 	background-color: var(--accent-txt-color);
 	color: var(--accent-txt-color);
+}
+
+.contact {
+	display: flex;
 }
 
 .header-contact {
@@ -757,11 +766,6 @@ button {
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
-	color: var(--accent-txt-color);
-}
-
-.link:hover,
-.link:focus {
 	color: var(--accent-txt-color);
 }
 
