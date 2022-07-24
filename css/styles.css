@@ -765,10 +765,6 @@ button {
 	color: var(--accent-txt-color);
 }
 
-.logo-footer {
-	margin-bottom: 20px;
-}
-
 .logo--color {
 	color: var(--color-light);
 }
@@ -782,11 +778,15 @@ button {
 	color: var(--color-light);
 }
 
-.footer-contact {
+.footer__address {
+	margin-top: 20px;
+}
+
+.address__contact {
 	text-decoration: none;
 }
 
-.link-footer {
+.address__footer {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -796,7 +796,7 @@ button {
 	transition: color var(--anim-slow);
 }
 
-.soc-links-footer-title {
+.soc-footer-title {
 	font-size: 14px;
 	text-transform: uppercase;
 
@@ -833,7 +833,7 @@ button {
 	margin-left: auto;
 }
 
-.subscribe-txt {
+.subscribe__txt {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -844,13 +844,13 @@ button {
 	color: #ffffff;
 }
 
-.subscribe-mail {
+.subscribe__mail {
 	display: flex;
 	justify-items: center;
 	align-items: center;
 }
 
-.subscribe-input {
+.subscribe__input {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.25;
@@ -871,13 +871,13 @@ button {
 	border-radius: 4px;
 }
 
-.subscribe-input:hover,
-.subscribe-input:focus {
+.subscribe__input:hover,
+.subscribe__input:focus {
 	border: 1px solid var(--accent-txt-color);
 	outline: none;
 }
 
-.subscribe-input::placeholder {
+.subscribe__input::placeholder {
 	color: rgba(117, 117, 117, 0.5);
 }
 
@@ -901,7 +901,7 @@ button {
 	border-radius: 4px;
 }
 
-.subscribe-btn-txt {
+.footer-btn__txt {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
