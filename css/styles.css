@@ -686,7 +686,7 @@ button {
 
 /* Regular customers */
 
-.regular-customers {
+.customers__title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 42px;
@@ -697,16 +697,16 @@ button {
 	margin-bottom: 50px;
 }
 
-.regular-us {
+.customers__list {
 	display: flex;
 	gap: 30px;
 }
 
-.regular-info {
+.customers__item {
 	width: 170px;
 }
 
-.regular-icon-list {
+.customers__link {
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 	display: flex;
@@ -717,18 +717,18 @@ button {
 	transition: border var(--anim-slow);
 }
 
-.regular-icon-list:hover,
-.regular-icon-list:focus {
+.customers__link:hover,
+.customers__link:focus {
 	border: 1px solid var(--accent-txt-color);
 }
 
-.regular-icon {
+.customers__icon {
 	fill: rgba(175, 177, 184, 1);
 	transition: fill var(--anim-slow);
 }
 
-.regular-icon-list:hover .regular-icon,
-.regular-icon-list:focus .regular-icon {
+.customers__link:hover .customers__icon,
+.customers__link:focus .customers__icon {
 	fill: var(--accent-txt-color);
 }
 
