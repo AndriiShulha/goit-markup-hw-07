@@ -323,7 +323,7 @@ button {
 	color: var(--card-text);
 }
 
-.header-contact--focus:not(:last-child) {
+/* .header-contact--focus:not(:last-child) {
 	margin-right: 50px;
 }
 
@@ -331,7 +331,7 @@ button {
 .header-contact--focus:focus {
 	color: var(--accent-txt-color);
 	cursor: pointer;
-}
+} */
 
 .header-contact__item {
 	display: flex;
@@ -765,7 +765,7 @@ button {
 	color: var(--accent-txt-color);
 }
 
-.logo--color {
+.logo--text {
 	color: var(--color-light);
 }
 
@@ -782,11 +782,11 @@ button {
 	margin-top: 20px;
 }
 
-.address__contact {
+.address__text {
 	text-decoration: none;
 }
 
-.address__footer {
+.address__link {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
