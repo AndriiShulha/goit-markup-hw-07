@@ -1,5 +1,6 @@
 // utils styles
 @import "./utils/vars";
+@import "./utils/visually-hidden";
 
 // base styles
 @import "./base/common";
@@ -10,6 +11,17 @@
 @import "./components/container";
 @import "./components/section";
 @import "./components/socials";
+@import "./components/uppertitle";
+@import "./components/buttons-portfolio";
+@import "./components/navigation";
+@import "./components/logo";
+@import "./components/links";
 
 // layout styles
 @import "./layouts/header";
+@import "./layouts/portfolio";
+@import "./layouts/hero";
+@import "./layouts/about";
+@import "./layouts/benefits";
+@import "./layouts/team";
+@import "./layouts/customers";
