@@ -1,0 +1,187 @@
+:root {
+  /* fonts */
+  --main-font: "Roboto";
+  --secondary-font: "Raleway";
+  /* text colors */
+  --accent-txt-color: #2196f3;
+  --main-color-btn: #212121;
+  --card-text: #757575;
+  --bg-color: #2f303a;
+  --color-light: #ffffff;
+  /* bg-colors */
+  /* others */
+  --items: 3;
+  --indent: 30px;
+  --anim-slow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+body.no-scroll {
+  overflow: hidden;
+}
+
+/* reset */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  border: none;
+}
+
+.btn {
+  border-radius: 4px;
+}
+.btn:hover, .btn:focus {
+  background-color: #188ce8;
+}
+
+.main-color-btn {
+  color: var(--main-color-btn);
+}
+
+.hero-btn {
+  padding: 10px 30px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--color-light);
+  background-color: var(--accent-txt-color);
+  -webkit-transition: var(--anim-slow);
+  transition: var(--anim-slow);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  padding: 94px 0;
+}
+
+.soc__team + .soc__team {
+  margin-left: 10px;
+}
+
+.soc__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: background-color var(--anim-slow);
+  transition: background-color var(--anim-slow);
+}
+.soc__link:hover, .soc__link:focus {
+  background-color: var(--accent-txt-color);
+}
+
+.soc__icon {
+  fill: #afb1b8;
+  -webkit-transition: fill var(--anim-slow);
+  transition: fill var(--anim-slow);
+}
+
+.soc__link:hover .soc__icon,
+.soc__link:focus .soc__icon {
+  fill: #ffffff;
+}
+
+.soc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+.soc-footer-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.soc-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+.soc-footer__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  fill: #ffffff;
+  -webkit-transition: background var(--anim-slow), fill var(--anim-slow);
+  transition: background var(--anim-slow), fill var(--anim-slow);
+}
+.soc-footer__link:hover, .soc-footer__link:focus {
+  background: var(--accent-txt-color);
+  fill: #ffffff;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

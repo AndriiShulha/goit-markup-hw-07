@@ -1,62 +1,6 @@
-:root {
-	/* fonts */
-	--main-font: "Roboto";
-	--secondary-font: "Raleway";
+/* common styles start */
 
-	/* text colors */
-	--accent-txt-color: #2196f3;
-	--main-color-btn: #212121;
-	--card-text: #757575;
-	--bg-color: #2f303a;
-	--color-light: #ffffff;
-
-	/* bg-colors */
-
-	/* others */
-
-	--items: 3;
-	--indent: 30px;
-	--anim-slow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-body {
-	font-family: "Roboto", "Raleway", sans-serif;
-	font-size: 14px;
-	line-height: 1.71;
-	letter-spacing: 0.03em;
-}
-
-/* reset */
-h1,
-h2,
-h3,
-h4,
-p {
-	margin: 0;
-}
-
-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
-}
-
-section {
-	padding: 94px 0;
-}
-
-ul {
-	list-style: none;
-}
-
-button {
-	display: flex;
-	align-items: center;
-	text-align: center;
-	margin: 0 auto;
-	cursor: pointer;
-	border: none;
-}
+/* common sryles end */
 
 /* Сітка із застосуванням flex-box */
 
@@ -207,24 +151,6 @@ button {
 
 /* Список работ end */
 
-/* common styles start */
-
-.no-scroll {
-	overflow: hidden;
-}
-
-.link {
-	text-decoration: none;
-}
-
-.list {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-/* common sryles end */
-
 /* Header section */
 
 .header {
@@ -235,14 +161,6 @@ button {
 	border: 1px solid #ececec;
 	border-left: none;
 	border-right: none;
-}
-
-.container {
-	width: 1200px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .header__container {
@@ -384,10 +302,6 @@ button {
 	color: var(--accent-txt-color);
 }
 
-.main-color-btn {
-	color: var(--main-color-btn);
-}
-
 /* Hero section */
 
 .hero {
@@ -418,18 +332,6 @@ button {
 	margin-bottom: 30px;
 }
 
-.hero-btn {
-	padding: 10px 30px;
-	font-family: inherit;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.87;
-	letter-spacing: 0.06em;
-	color: var(--color-light);
-	background-color: var(--accent-txt-color);
-	transition: var(--anim-slow);
-}
-
 .hidden {
 	display: none;
 }
@@ -448,10 +350,6 @@ button {
 	padding: 0;
 	margin: 0;
 	margin-bottom: 50px;
-}
-
-.btn {
-	border-radius: 4px;
 }
 
 .button-portfolio__info {
@@ -557,11 +455,6 @@ button {
 	color: #eeeeee;
 }
 
-.btn:hover,
-.btn:focus {
-	background-color: #188ce8;
-}
-
 /* Team */
 
 .team {
@@ -645,47 +538,6 @@ button {
 	letter-spacing: 0.03em;
 	color: var(--card-text);
 	margin-bottom: 16px;
-}
-
-.soc__link {
-	display: flex;
-	justify-content: center;
-}
-
-.soc__team + .soc__team {
-	margin-left: 10px;
-}
-
-.soc__link {
-	width: 44px;
-	height: 44px;
-	border-radius: 50%;
-	background-color: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transition: background-color var(--anim-slow);
-}
-
-.soc__link:hover,
-.soc__link:focus {
-	background-color: var(--accent-txt-color);
-}
-
-.soc__icon {
-	fill: #afb1b8;
-	transition: fill var(--anim-slow);
-}
-
-.soc__link:hover .soc__icon,
-.soc__link:focus .soc__icon {
-	fill: #ffffff;
-}
-
-.soc {
-	display: flex;
-	justify-content: center;
-	padding: 0;
 }
 
 /* Team end */
@@ -794,39 +646,6 @@ button {
 	letter-spacing: 0.02em;
 	color: var(--card-text);
 	transition: color var(--anim-slow);
-}
-
-.soc-footer-title {
-	font-size: 14px;
-	text-transform: uppercase;
-
-	color: #ffffff;
-}
-
-.soc-footer {
-	display: flex;
-	gap: 10px;
-	padding: 0;
-}
-
-.soc-footer__link {
-	width: 44px;
-	height: 44px;
-	border-radius: 50%;
-
-	background: rgba(255, 255, 255, 0.1);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	fill: #ffffff;
-	transition: background var(--anim-slow), fill var(--anim-slow);
-}
-
-.soc-footer__link:hover,
-.soc-footer__link:focus {
-	background: var(--accent-txt-color);
-	fill: #ffffff;
-	cursor: pointer;
 }
 
 .subscribe {

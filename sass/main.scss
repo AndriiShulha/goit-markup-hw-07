@@ -1,0 +1,15 @@
+// utils styles
+@import "./utils/vars";
+
+// base styles
+@import "./base/common";
+@import "./base/reset";
+
+// component styles
+@import "./components/buttons";
+@import "./components/container";
+@import "./components/section";
+@import "./components/socials";
+
+// layout styles
+@import "./layouts/header";
